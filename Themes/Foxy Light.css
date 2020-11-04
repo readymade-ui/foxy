@@ -327,20 +327,20 @@ markup.code {
 }
 
 /* Terminal */
-terminal.bright-black { color: #353B48; }
+terminal.bright-black { color: #38383D; }
 terminal.bright-red { color: #D96629; }
-terminal.bright-green { color: #93DF86; }
+terminal.bright-green { color: #148310; }
 terminal.bright-yellow { color: #FFCD22; }
-terminal.bright-blue { color: #709AFF; }
-terminal.bright-magenta { color: #C5A3FE; }
+terminal.bright-blue { color: #0878E9; }
+terminal.bright-magenta { color: #FF7DE9; }
 terminal.bright-cyan { color: #46AFE3; }
-terminal.bright-white { color: #FFFFFF; }
+terminal.bright-white { color: #E0E2E4; }
 
-terminal.black { color: #18181A; }
+terminal.black { color: #0C0C0C; }
 terminal.red { color: #EB5368; }
-terminal.green { color: #86DE74; }
-terminal.yellow { color: #FFCD22; }
-terminal.blue { color: #0A84FF; }
-terminal.magenta { color: #FF7DE9; }
+terminal.green { color: #058B00; }
+terminal.yellow { color: #FF9900; }
+terminal.blue { color: #003EAA; }
+terminal.magenta { color: #DD00A9; }
 terminal.cyan { color: #75BFFF; }
-terminal.white { color: #D9D9DC; }
+terminal.white { color: #E6E6E6; }
