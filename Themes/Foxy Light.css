@@ -67,7 +67,7 @@ meta.textfield.selected {
  */
 meta.document {
     background-color: #FFFFFF;
-    border-color: #38383D;
+    border-color: #DCDCDE;
 }
 meta.document.button {
     background-color: #F9F9FA;
@@ -125,7 +125,7 @@ meta.indentguide {
 }
 /* Gutter */
 meta.gutter {
-    color: #38383D;
+    color: #DCDCDE;
 }
 meta.gutter.selected {
     background-color: #B9D7FD;
