@@ -3,7 +3,7 @@
     "name": "Foxy",
     "organization": "Readymade",
     "description": "Nova theme based on Mozilla Firefox Dev Tools",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "categories": ["themes"],
     "keywords": ["dark", "light", "firefox", "dev tools", "colorful"],
     "bugs": "https://github.com/readymade-ui/foxy/issues"
