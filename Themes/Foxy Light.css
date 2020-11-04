@@ -2,37 +2,31 @@
 meta {
     -theme-interface-name: "Foxy Light";
     -theme-interface-style: light;
-    -theme-accent-color: auto;
+    -theme-vibrancy: none;
+    -theme-accent-color: false;
 }
 
-/*
- * Window styles
- */
+/* Window styles */
 meta.window {
-    background-color: #FFFFFF;
-    border-color: #E0E0E2;
+    background: #FFFFFF;
+    border: #E0E0E2;
 }
 meta.titlebar {
+    background: #F9F9FA;
+    border: #E0E0E2;
     color: #38383D;
-    background-color: #F9F9FA;
-    border-color: #E0E0E2;
 }
 meta.titlebar.inactive {
-    background-color: #F9F9FA;
+    background: #F9F9FA;
 }
 meta.button {
-    background-color: #F9F9FA;
-    border-color: #F9F9FA;
+    background: #F9F9FA;
+    border: #F9F9FA;
     color: #38383D;
 }
 meta.button.highlighted {
-    background-color: #DCDCDE;
+    background: #DCDCDE;
     border: #DCDCDE;
-    color: #0C0C0C;
-}
-meta.button.selected {
-    background: #E6E6E6;
-    border: #E6E6E6;
     color: #0C0C0C;
 }
 meta.button.highlighted.selected {
@@ -40,69 +34,65 @@ meta.button.highlighted.selected {
     border: #E6E6E6;
     color: #3E3E3E;
 }
+meta.button.selected {
+    background: #E6E6E6;
+    border: #E6E6E6;
+    color: #0C0C0C;
+}
 meta.button.disabled {
     background: #F9F9FA;
     border: #F9F9FA;
     color: #E6E6E6;
 }
 meta.textfield {
-    background-color: #F9F9FA;
-    border-color: #F9F9FA;
-    color: #3E3E3E;
+    background: #F9F9FA;
+    border: #F9F9FA;
 }
 meta.textfield.highlighted {
-    background-color: #F9F9FA;
-    border-color: #0A84FF;
-    color: #38383D;
+    background: #F9F9FA;
+    border: #0A84FF;
 }
 meta.textfield.selected {
-    background-color: #F9F9FA;
-    border-color: #0A84FF;
-    color: #38383D;
+    background: #F9F9FA;
+    border: #0A84FF;
 }
 
-
-/*
- * Document styles
- */
+/* Document styles */
 meta.document {
-    background-color: #FFFFFF;
-    border-color: #DCDCDE;
+    background: #FFFFFF;
+    border: #DCDCDE;
 }
 meta.document.button {
-    background-color: #F9F9FA;
-    border-color: #F9F9FA;
+    background: #F9F9FA;
+    border: #F9F9FA;
     color: #38383D;
 }
 meta.document.button.disabled {
-    background-color: #F9F9FA;
-    border-color: #F9F9FA;
+    background: #F9F9FA;
+    border: #F9F9FA;
     color: #E6E6E6;
 }
 meta.document.button.highlighted {
-    background-color: #E6E6E6;
+    background: #E6E6E6;
     border: #E6E6E6;
     color: #3E3E3E;
 }
 meta.document.button.selected {
-    background-color: #E6E6E6;
+    background: #E6E6E6;
     border: #E6E6E6;
     color: #3E3E3E;
 }
 meta.document.textfield {
-    background-color: #F9F9FA;
-    border-color: #F9F9FA;
-    color: #3E3E3E;
+    background: #F9F9FA;
+    border: #F9F9FA;
 }
 meta.document.textfield.highlighted {
-    background-color: #F9F9FA;
-    border-color: #0A84FF;
-    color: #38383D;
+    background: #F9F9FA;
+    border: #0A84FF;
 }
 meta.document.textfield.selected {
-    background-color: #F9F9FA;
-    border-color: #0A84FF;
-    color: #38383D;
+    background: #F9F9FA;
+    border: #0A84FF;
 }
 
 /* Text */
@@ -113,29 +103,28 @@ meta.text.invisible {
     color: #0878E9;
 }
 meta.text.selected {
-    background-color: #B9D7FD;
+    background: #B9D7FD;
 }
 /* Cursor */
 meta.cursor {
-    background-color: #E7F1FE;
+    background: #E7F1FE;
 }
 /* Indentation Guides */
 meta.indentguide {
-    border-color: #DCDCDE;
+    border: #DCDCDE;
 }
 /* Gutter */
 meta.gutter {
     color: #DCDCDE;
 }
 meta.gutter.selected {
-    background-color: #B9D7FD;
+    background: #B9D7FD;
 }
 
 
 /*
  * Syntax styles
  */
-
 keyword {
     color: #DD00A9;
     font-style: italic;
@@ -164,7 +153,6 @@ link {
 }
 
 /* Values */
-
 value.boolean {
     color: #DD00A9;
 }
@@ -232,15 +220,15 @@ definition.package package.name,
 definition.enum enum.name,
 definition.union union.name,
 definition.struct struct.name {
-    font-style: normal;
     color: #0878E9;
+    font-weight: bold;
 }
 
 /* Members */
 definition.property property.name,
 definition.function function.name,
 definition.method method.name {
-    color: #0878E9;
+    color: #003EAA;
 }
 
 /* Tags */
@@ -304,23 +292,25 @@ style.value.color.named {
 /* Markup */
 markup.heading {
     color: #353B48;
+    font-weight: bold;
 }
 markup.line {
-    color: #38383D;
+    color: #A0A0A0;
 }
 markup.bold {
-    color: #38383D;
     font-weight: bold;
 }
 markup.italic {
-    color: #38383D;
     font-style: italic;
 }
 markup.strikethrough {
-    color: #38383D;
+    color: #DD00A9;
+}
+markup.list {
+    color: #747474;
 }
 markup.list.item {
-    color: #747474;
+    color: #A0A0A0;
 }
 markup.code {
     color: #A0A0A0;

@@ -4,5 +4,5 @@ Initial Release
 
 **Foxy** is a Nova theme based on the exquisite palette featured in Mozilla Firefox Dev Tools. Foxy features bright colors with support for italics.
 
-- feat: Foxy light theme
-- feat: Foxy dark theme
+- feat: Foxy Light Theme
+- feat: Foxy Dark Theme

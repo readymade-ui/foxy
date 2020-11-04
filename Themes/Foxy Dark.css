@@ -2,30 +2,34 @@
 meta {
     -theme-interface-name: "Foxy Dark";
     -theme-interface-style: dark;
-    -theme-accent-color: auto;
+    -theme-vibrancy: none;
+    -theme-accent-color: false;
 }
 
-/*
- * Window styles
- */
+/* Window styles */
 meta.window {
-    background-color: #18181A;
-    border-color: #38383D;
+    background: #18181A;
+    border: #38383D;
 }
 meta.titlebar {
+    background: #232327;
+    border: #38383D;
     color: #B1B1B3;
-    background-color: #232327;
-    border-color: #38383D;
 }
 meta.titlebar.inactive {
-    background-color: #18181A;
+    background: #18181A;
 }
 meta.button {
-    background-color: #18181A;
-    border-color: #18181A;
+    background: #18181A;
+    border: #18181A;
     color: #A1A1A1;
 }
 meta.button.highlighted {
+    background: #4E4E51;
+    border: #4E4E51;
+    color: #A1A1A1;
+}
+meta.button.highlighted.selected {
     background: #4E4E51;
     border: #4E4E51;
     color: #A1A1A1;
@@ -35,69 +39,60 @@ meta.button.selected {
     border: #4E4E51;
     color: #A1A1A1;
 }
-meta.button.highlighted.selected {
-    background: #4E4E51;
-    border-color: #4E4E51;
-    color: #A1A1A1;
-}
 meta.button.disabled {
-    background-color: #18181A;
-    border-color: #18181A;
+    background: #18181A;
+    border: #18181A;
     color: #4E4E51;
 }
 meta.textfield {
-    background-color: #18181A;
-    border-color: #18181A;
-    color: #A1A1A1;
+    background: #232327;
+    border: #232327;
 }
 meta.textfield.highlighted {
-    background-color: #18181A;
-    border-color: #0A84FF;
-    color: #A1A1A1;
+    background: #232327;
+    border: #0A84FF;
 }
 meta.textfield.selected {
-    background-color: #18181A;
-    border-color: #0A84FF;
-    color: #A1A1A1;
+    background: #18181A;
+    border: #0A84FF;
 }
 
-
-/*
- * Document styles
- */
+/* Document styles */
 meta.document {
-    background-color: #18181A;
-    border-color: #38383D;
+    background: #18181A;
+    border: #38383D;
 }
 meta.document.button {
-    background-color: #18181A;
-    border-color: #18181A;
+    background: #18181A;
+    border: #18181A;
     color: #A1A1A1;
 }
 meta.document.button.disabled {
-    background-color: #18181A;
-    border-color: #18181A;
+    background: #18181A;
+    border: #18181A;
     color: #4E4E51;
 }
 meta.document.button.highlighted {
     background: #4E4E51;
-    border-color: #4E4E51;
+    border: #4E4E51;
+    color: #A1A1A1;
+}
+meta.document.button.selected {
+    background: #4E4E51;
+    border: #4E4E51;
     color: #A1A1A1;
 }
 meta.document.textfield {
-    background-color: #18181A;
-    border-color: #18181A;
-    color: #A1A1A1;
+    background: #232327;
+    border: #18181A;
 }
 meta.document.textfield.highlighted {
-    background-color: #18181A;
-    border-color: #0A84FF;
-    color: #A1A1A1;
+    background: #232327;
+    border: #0A84FF;
 }
 meta.document.textfield.selected {
-    background-color: #18181A;
-    border-color: #0A84FF;
-    color: #A1A1A1;
+    background: #232327;
+    border: #0A84FF;
 }
 
 /* Text */
@@ -108,29 +103,26 @@ meta.text.invisible {
     color: #D9D9DC;
 }
 meta.text.selected {
-    background-color: #353B48;
+    background: #353B48;
 }
 /* Cursor */
 meta.cursor {
-    background-color: #353B48;
+    background: #353B48;
 }
 /* Indentation Guides */
 meta.indentguide {
-    border-color: #38383D;
+    border: #38383D;
 }
 /* Gutter */
 meta.gutter {
     color: #A1A1A1;
 }
 meta.gutter.selected {
-    background-color: #353B48;
+    background: #353B48;
 }
 
 
-/*
- * Syntax styles
- */
-
+/* Syntax styles */
 keyword {
     color: #FF7DE9;
     font-style: italic;
@@ -159,7 +151,6 @@ link {
 }
 
 /* Values */
-
 value.boolean {
     color: #FF7DE9;
 }
@@ -227,15 +218,15 @@ definition.package package.name,
 definition.enum enum.name,
 definition.union union.name,
 definition.struct struct.name {
-    font-style: normal;
-    color: gray;
+    color: #709AFF;
+    font-weight: bold;
 }
 
 /* Members */
 definition.property property.name,
 definition.function function.name,
 definition.method method.name {
-    color: gray;
+    color: #CDCDD1;
 }
 
 /* Tags */
@@ -298,27 +289,29 @@ style.value.color.named {
 
 /* Markup */
 markup.heading {
-    color: #353B48;
+    color: #CDCDD1;
+    font-weight: bold;
 }
 markup.line {
-    color: #D9D9DC;
+    color: #A0A0A0;
 }
 markup.bold {
-    color: #D9D9DC;
     font-weight: bold;
 }
 markup.italic {
-    color: #D9D9DC;
     font-style: italic;
 }
 markup.strikethrough {
-    color: #D9D9DC;
+    color: #FF7DE9;
+}
+markup.list {
+    color: #CDCDD1;
 }
 markup.list.item {
-    color: #747474;
+     color: #8F8F91;
 }
 markup.code {
-    color: #4E4E51;
+    color: #CDCDD1;
 }
 
 /* Terminal */
