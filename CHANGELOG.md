@@ -1,3 +1,8 @@
+## Version 1.0.2
+
+- fix: contrast issues
+- feat: extension icon
+
 ## Version 1.0.1
 
 - fix: screenshots in README
