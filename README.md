@@ -4,10 +4,7 @@
 
 Available in both light and dark themes.
 
-## Foxy Dark
 ![](https://raw.githubusercontent.com/readymade-ui/foxy/master/Images/extension/foxy-dark.png)
-
-## Foxy Light
 ![](https://raw.githubusercontent.com/readymade-ui/foxy/master/Images/extension/foxy-light.png)
 
 ## Acknowledgements
